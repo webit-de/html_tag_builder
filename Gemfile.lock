@@ -1,0 +1,36 @@
+PATH
+  remote: .
+  specs:
+    html_tag_builder (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.1.0)
+    coderay (1.1.2)
+    erbse (0.1.1)
+      temple
+    method_source (0.9.0)
+    minitest (5.10.3)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-byebug (3.5.0)
+      byebug (~> 9.1)
+      pry (~> 0.10)
+    rake (10.5.0)
+    temple (0.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  erbse (~> 0.1.1)
+  html_tag_builder!
+  minitest (~> 5.0)
+  pry-byebug
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.0
